@@ -1,16 +1,11 @@
-export const App = () => {
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <main>
+      <div className="container">
+        <div className="box">Этот текст - пока тренировка</div>
+      </div>
+    </main>
   );
 };
+
+export default App;
